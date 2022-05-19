@@ -733,6 +733,9 @@ body {
 .modal-form-input:focus + .modal-form-icon {
   fill: var(--text-accent-color);
 }
+.modal-form-input:hover + .modal-form-icon {
+  fill: var(--text-accent-color);
+}
 .modal-form-comment {
   margin-bottom: 20px;
 }
