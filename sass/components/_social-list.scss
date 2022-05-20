@@ -5,14 +5,15 @@
   &__item:not(:last-child) {
     margin-right: 10px;
   }
-}
-.social-list__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+  }
 }
 .social-list__link--mid {
   fill: var(--social-icon-main-color);

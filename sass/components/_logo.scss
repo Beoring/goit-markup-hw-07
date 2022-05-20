@@ -7,3 +7,17 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+.footer__logo {
+  margin-bottom: 20px;
+}
+.header__logo {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.footer .logo__part {
+  color: var(--text-light-color);
+}
+.header .logo__part {
+  color: var(--text-dark-color);
+}
