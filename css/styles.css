@@ -58,6 +58,17 @@ body {
   color: var(--text-main-color);
   text-decoration: none;
 }
+.btn {
+  font-family: inherit;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -79,12 +90,6 @@ body {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
-.btn {
-  font-family: inherit;
-  font-size: 16px;
-  text-align: center;
-  cursor: pointer;
 }
 .logo {
   display: block;
@@ -116,11 +121,6 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-}
-.img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 /*--------------HEADER------------*/
 .header {
@@ -226,7 +226,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.btn--hero {
+.main-btn {
   padding-top: 10px;
   padding-right: 32px;
   padding-bottom: 10px;
@@ -246,8 +246,8 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.btn--hero:hover,
-.btn--hero:focus {
+.main-btn:hover,
+.main-btn:focus {
   background-color: var(--bg-accent-btn-color);
 }
 /*--------------ADVANTAGES------------*/
@@ -384,7 +384,7 @@ body {
 .examples-list__item:not(:last-child) {
   margin-right: 8px;
 }
-.btn--example {
+.example-btn {
   padding: 6px 22px;
   display: block;
   border-radius: 4px;
@@ -397,15 +397,15 @@ body {
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.btn--current {
+.example-btn--current {
   border: 0;
   background-color: var(--bg-accent-color);
   color: var(--text-light-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.btn--example:hover,
-.btn--example:focus {
+.example-btn:hover,
+.example-btn:focus {
   background-color: var(--bg-accent-color);
   color: var(--text-light-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -568,7 +568,7 @@ body {
 .subscription-form__input:hover {
   border-color: var(--light-alfa-color);
 }
-.btn--subscription {
+.subscription-btn {
   display: flex;
   align-items: center;
   min-width: 200px;
@@ -589,11 +589,11 @@ body {
   color: var(--text-light-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.btn--subscription:hover,
-.btn--subscription:focus {
+.subscription-btn:hover,
+.subscription-btn:focus {
   background-color: var(--bg-accent-btn-color);
 }
-.btn__icon {
+.subscription-btn__icon {
   fill: var(--social-icon-footer-color);
   margin-left: 10px;
 }
@@ -794,7 +794,7 @@ body {
   border-color: var(--text-accent-color);
   background-color: var(--text-accent-color);
 }
-.btn--backdrop {
+.backdrop-btn {
   padding-top: 10px;
   padding-right: 55px;
   padding-bottom: 10px;
@@ -814,8 +814,8 @@ body {
   color: var(--text-light-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.btn--backdrop:hover,
-.btn--backdrop:focus {
+.backdrop-btn:hover,
+.backdrop-btn:focus {
   background-color: var(--bg-accent-btn-color);
 }
 .modal-checkbox__link:hover,
